@@ -1,0 +1,47 @@
+{
+  "name": "ng2-starter-scotch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+    "postinstall": "typings install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhmahajan0077/ng2-starter-scotch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhmahajan0077/ng2-starter-scotch/issues"
+  },
+  "homepage": "https://github.com/saurabhmahajan0077/ng2-starter-scotch#readme",
+  "dependencies": {
+    "@angular/common": "^2.2.0",
+    "@angular/compiler": "^2.2.0",
+    "@angular/core": "^2.2.0",
+    "@angular/forms": "^2.2.0",
+    "@angular/http": "^2.2.0",
+    "@angular/platform-browser": "^2.2.0",
+    "@angular/platform-browser-dynamic": "^2.2.0",
+    "@angular/router": "^3.2.0",
+    "core-js": "^2.4.1",
+    "lite-server": "^2.2.2",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-rc.3",
+    "systemjs": "^0.19.41",
+    "typescript": "^2.0.10",
+    "typings": "^2.0.0",
+    "zone.js": "^0.6.26"
+  },
+  "devDependencies": {
+    "concurrently": "^3.1.0"
+  }
+}
